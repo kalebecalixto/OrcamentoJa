@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/05/2017, 10:54:57
+    Author     : kalebecalixto
+*/
+
+html, body 
+{ 
+    margin:0; height: 100%;
+}
+
+body{
+    padding-top: 123px;
+}
+
+#menuSup{
+    background-color: #fff;
+    width: 100%;
+    padding: 5px 5px;
+    box-shadow: 0 0 10px 5px #afa59c;
+}
+
+#menuSup .container{
+    padding-bottom: 5px;
+}
+
+.navbar-brand{
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: inherit;
+}
+
+
+#menuSec{
+    border-color: #ff7b00 !important; 
+    border-top: 1px solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+.navbar-default{
+    border-color: #ff7b00 !important;
+    border: 0px !important;
+}
+
+.btn-nav.solict{
+    background-color: #ff7b00;
+    border-color: #ff7b00 !important; 
+    border: 1px solid;
+    width: 200px;
+    cursor: pointer;
+    color: #ffffff ! important;
+    font-weight: bold
+}
+
+.btn-nav.solict:hover{
+    color: black ! important;
+}
+
+.btn-geral:hover{
+    background-color: #ff7b00 !important;
+    color: #ffffff ! important;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: #ffffff !important; 
+}
+
+#menuSec ul{
+    width: 100%;
+}
+
+#menuSec ul li{
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+}
+
+#menuSec ul li:hover{
+    border-bottom: 1px solid #ff7b00
+}
